@@ -74,6 +74,6 @@ function contact() {
         document.getElementById("response").innerHTML= response;
         document.getElementById("responseBox").classList.add("response");
         document.getElementById("error").innerHTML="<br>";
-        document.getElementById("button").disabled = true;
+        document.getElementById("submit").disabled = true;
     }
 }
