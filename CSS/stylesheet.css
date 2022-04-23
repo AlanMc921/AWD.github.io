@@ -54,3 +54,7 @@
 .dimension2{
   min-height: 100%;
 }
+
+#query{
+  max-width: 100%;
+}
