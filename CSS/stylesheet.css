@@ -56,5 +56,8 @@
 }
 
 #query{
-  max-width: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-animation: border-box;
+  box-sizing: border-box;
+  width: 100%;
 }
