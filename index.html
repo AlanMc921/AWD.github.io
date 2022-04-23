@@ -1,0 +1,171 @@
+<!DOCTYPE html >
+
+<html lang="en" xml:lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AWD - Alan's Web Design</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="CSS/stylesheet.css" rel="stylesheet">
+</head>
+
+
+<body>
+    <!-- Nav Bar -->
+
+    <nav class="navbar navbar-expand-lg navbar-light theme bb" >
+        <div class="container-lg mb mt">
+            <a class="navbar-brand" href="#home"><img src="images/Alan's-Web-Design-logos_ccexpress.jpeg" alt="logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto fs-5">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#gallery">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- Home -->
+
+    <div class="theme d-flex align-items-center justify-content-center py-5 px-5" id="home">
+        <div class="row justify-content-center py-5">
+            <div class="col-lg-5">
+                <img src="images/web-development.png" class="img-fluid mx-auto d-block zoom py-5"  alt="Simple animated monitor diplaying settings cog">
+            </div>
+            <div class="col-lg-5 my-5 pr-1">
+                <h1>Get online!</h1>
+                <br>
+                <p class="text">
+                    At AWD we are passionate about getting businesses online. We provide all types of web solutions for every size company. 
+                    <br>
+                    <br>
+                    Whether you are looking for a small site to have an online presence or are looking to have a large online store, we provide a one stop shop for all your online needs. 
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- About -->
+
+    <div class="d-flex align-items-center justify-content-center py-6 px-5" id="about">
+        <div class="row justify-content-center py-6">
+            <div class="col-lg-5 mx-5 ml-5 py-5">
+                <h1>Meet the Team</h1>
+                <br>
+                <p class="text">
+                    Alan and the team have many years in web development as well as client solutions. The team have a broad range of experience across many different industries. This puts us in the unique position to offer varied solutions for many business types, big and small. 
+                    <br>
+                    <br>
+                    Our friendly and approachable team have a passion for clever intiutive design. We are always looking out for the next project, so why not get in touch and see what we can offer.
+                </p>
+            </div>
+            <div class="col-lg-5 d-flex align-items-center justify-content-center fade-in-image">
+                <a href="#contact">
+                    <img src="images/team.png" class="img-fluid mx-auto d-block zoom my-5" alt="Team of web design specialists">
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Gallery -->
+
+    <div class="theme2 py-5" id="gallery">
+    <!--first column--> 
+        <div class="row justify-content-center d-flex align-items-center img-fluid my-4">   
+            <div class="col-lg-4 img-fluid d-flex fade-in-image justify-content-center dimension py-4"> 
+                <img src="images/Gallery/customer-reviews_ccexpress.png" id="g0" class="pic zoom" alt="about us" onclick="addText(this.id)">               
+                <p class="text d-flex align-items-center text-center zoom px-4" id="p0" onclick="addText(this.id)"></p>
+            </div>
+            <div class="col-lg-4 img-fluid d-flex fade-in-image justify-content-center dimension py-4 ">
+                <img src="images/Gallery/computer-monitor-and-cellphone_ccexpress.png" class ="zoom" id="g1" alt="about us" onclick="addText(this.id)">
+                <p class="text align-items-center d-flex zoom" id="p1" onclick="addText(this.id)"></p>
+            </div>
+        </div>
+    <!--second column-->  
+        <div class="row justify-content-center d-flex align-items-center img-fluid my-4">        
+            <div class="col-lg-4 img-fluid d-flex fade-in-image justify-content-center dimension py-4">
+                <img src="images/Gallery/mobile-app-developing_ccexpress.png"  class="zoom" id="g2" alt="about us" onclick="addText(this.id)">
+                <p class="text align-items-center d-flex zoom" id="p2" onclick="addText(this.id)"></p>
+            </div>
+            <div class="col-lg-4 img-fluid d-flex fade-in-image justify-content-center dimension py-4">
+                <img src="images/Gallery/online-purchase_ccexpress.png" class="zoom" id="g3" alt="about us" onclick="addText(this.id)">
+                <p class="text align-items-center d-flex zoom" id="p3" onclick="addText(this.id)"></p>
+            </div>
+        </div>
+    <!--third column-->  
+        <div class="row justify-content-center d-flex align-items-center img-fluid my-4">                  
+            <div class="col-lg-4 img-fluid d-flex fade-in-image justify-content-center dimension py-4">
+                <img src="images/Gallery/online-video_ccexpress.png" class="zoom" id="g4" alt="about us" onclick="addText(this.id)">
+                <p class="text align-items-center d-flex zoom" id="p4" onclick="addText(this.id)"></p>
+            </div>
+            <div class="col-lg-4 img-fluid d-flex fade-in-image justify-content-center dimension py-4">
+                <img src="images/Gallery/settings-tools_ccexpress.png" class="zoom" id="g5" alt="about us" onclick="addText(this.id)">
+                <p class="text align-items-center justify-content-center d-flex zoom" id="p5" onclick="addText(this.id)"></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact -->
+
+    <div class="d-flex align-items-center justify-content-center py-2 px-5" id="contact">
+        <div class="row justify-content-center py-5">
+        
+            <div class="col-lg-5 mt-5 mb-5 mr-5 py-6 px-5">
+                    <h1>Get in touch!!</h1>
+                    <br/>
+                    <p class="text">
+                        We'd love to hear from you. Why not get in touch and see what we can do for you.<br/>
+                        <br/>
+                        We can setup a free consultation and walk you through the process.
+                    </p>
+                    <div id="responseBox" class="text box d-flex align-items-center justify-content-center rounded px-2">
+                        <p id="response"><br><br></p>
+                    </div>
+            </div>
+            
+            <div class="col-lg-5 mr-5 px-4 d-flex align-items-center justify-content-center">
+                <form id="contactForm">
+                    <br>
+                    <input type="text" id="name" name="name" placeholder="Name"><br>
+                    <br>
+                    <input type="email" id="email" name="email"  placeholder="Email"><br>
+                    <br>
+                    <input type="tel" id="phone" name="phone"  placeholder="Phone number"><br>
+                    <br>
+                    <textarea id="query" name="query" placeholder="Message" rows="6" cols="50"></textarea><br>
+                    <p class="text error" id="error"><br></p>
+                    <input id="submit" type="button" value="Submit" onclick="contact()">
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+
+    <div class="row text-center justify-content-center py-5 border-top">
+        <p class="">Copyright © 2022 AWD | Alan's Web Design</p>
+    </div>
+
+    <!-- scripts -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="JS/script.js"></script>
+</body>
+</html>
